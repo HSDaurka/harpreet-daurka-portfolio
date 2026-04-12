@@ -15,7 +15,7 @@ const skillGroups: SkillGroup[] = [
 
 const SkillsSection = () => {
   return (
-    <section id="skills" className="section-padding bg-surface">
+    <section id="skills" className="section-padding backdrop-blur-sm" style={{ backgroundColor: 'hsl(220 20% 97% / 0.7)' }}>
       <div className="max-w-4xl mx-auto">
         <motion.div
           initial={{ opacity: 0, y: 20 }}

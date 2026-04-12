@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 
 const AboutSection = () => {
   return (
-    <section id="about" className="section-padding bg-surface">
+    <section id="about" className="section-padding backdrop-blur-sm" style={{ backgroundColor: 'hsl(220 20% 97% / 0.7)' }}>
       <div className="max-w-4xl mx-auto">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
