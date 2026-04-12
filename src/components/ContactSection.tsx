@@ -3,7 +3,7 @@ import { Mail, MapPin, Github, Linkedin } from "lucide-react";
 
 const ContactSection = () => {
   return (
-    <section id="contact" className="section-padding bg-surface">
+    <section id="contact" className="section-padding backdrop-blur-sm" style={{ backgroundColor: 'hsl(220 20% 97% / 0.7)' }}>
       <div className="max-w-4xl mx-auto text-center">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
