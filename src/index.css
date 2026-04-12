@@ -79,6 +79,13 @@
   .section-padding {
     @apply px-6 py-20 md:px-12 lg:px-24 lg:py-28;
   }
+
+  .bg-grid {
+    background-image:
+      linear-gradient(to right, hsl(220 15% 90% / 0.5) 1px, transparent 1px),
+      linear-gradient(to bottom, hsl(220 15% 90% / 0.5) 1px, transparent 1px);
+    background-size: 64px 64px;
+  }
 }
 
 html {
